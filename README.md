@@ -8,6 +8,7 @@ Cílem této aplikace je vytvoření formuláře pro pravidelné investování. 
 - Telefonní číslo
 - Emailová adresa
 - Rodné číslo
+- Datum narození
 - Číslo občanského průkazu
 - Adresa trvalého pobytu
 - Číslo bankovního účtu (pro případné výplaty výnosů z investice)
@@ -22,13 +23,12 @@ Cílem této aplikace je vytvoření formuláře pro pravidelné investování. 
   - Je nutné zabránit odesílání nevalidních nebo nesmyslných dat na backend a současně uživatele informovat o nevalidním vstupu a možnosti jeho opravy.
 
 ### Technické požadavky
-- Kód by měl být čistý a přehledný.
-- Je třeba dodržet rozumnou strukturu komponent a zvolit vhodný vzor pro projekt.
+- Aplikace musí být postavena na Vue 3 nebo Nuxt 3.
 - Použití TypeScriptu je povinné.
-- Aplikace by měla být postavena na Vue 3 nebo Nuxt 3.
 - Je třeba použít composables/store.
+- Je třeba dodržet rozumnou adresářovou strukturu pro projekt, pro komponenty.
+- Kód by měl být čistý, přehledný, zkrátka jednoduše čitelný.
 - Aplikace bude napojena na placeholder API: https://jsonplaceholder.typicode.com/guide/
-- POST pro odeslání dat
+  - POST pro odeslání dat
   - GET pro zobrazení souhrnu na stránce
-  - Je povoleno použití jakýchkoliv npm knihoven.
-- BONUS: Uvítáme použití Tailwind CSS, router guard, a dalších rozšíření.
+- BONUS: Uvítáme použití Tailwind CSS, router guard pro povolení/zakázání kroků ve formuláři, nebo třeba https://reka-ui.com/, případně dalších rozšíření.
