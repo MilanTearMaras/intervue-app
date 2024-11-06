@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended"
+  ],
+  "plugins": [
+    "vue",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": [0],
+    "vue/multi-word-component-names": [0],
+    "import/extensions": [0],
+    "import/no-unresolved": [0],
+    "@typescript-eslint/no-namespace": [0],
+    "semi": ["error", "always"],
+    "vue/no-v-for-template-key-on-child": [2],
+    "vue/no-v-for-template-key": [0],
+    "vue/no-multiple-template-root": [0],
+    "vue/no-child-content": [0],
+    "vue/no-v-model-argument": [0],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "always-multiline"
+    }]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser"
+  }
+}
